@@ -1,0 +1,11 @@
+body {
+    background-color: bisque;
+}
+img {
+float: left;
+border-radius: 20px;
+}
+.container {
+   font-size: 30px;
+   text-align: center;
+}

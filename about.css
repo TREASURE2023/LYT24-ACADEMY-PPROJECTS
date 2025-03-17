@@ -1,0 +1,18 @@
+        body {
+            background-color: bisque
+        }
+        img {
+            border-radius: 25px;
+        }
+        .container {
+            text-align: center;
+        }
+        .title {
+            font-size: 80px;
+        }
+        #text {
+            font-size: large;
+        }
+        #links {
+            font-size: 30px;
+        }

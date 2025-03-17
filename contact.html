@@ -4,25 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT PAGE</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <style>
-        body {
-            background-color: bisque;
-        }
-        h2 {
-            font-size: 40px;
-        }
-        p {
-            font-size: 30px;
-        }
-        h3 {
-            font-size: 24px;
-        }
-        a {
-            font-size: 30px;
-        }
-    </style>
+   
     <div>
         <h2>CONTACT ME</h2>
         <p>
@@ -35,5 +20,30 @@
         <a href="about.html">👉Back to About</a> <br>
         <a href="index2.html">👉Back to Home</a>
     </div>
+            <br>
+
+    <h3>FILL OUT THE FORM BELOW 👇 TO SEND ME A MESSAGE</h3>
+    <form>
+        <label for="first name">First Name:</label> <br>
+        <input type="text" id="first name"> <br> <br>
+
+        <label for="last name">Last Name:</label> <br>
+        <input type="text" id="Last Name"> <br> <br>
+
+        <label for="email">Email:</label> <br>
+        <input type="text" id="email"> <br> <br> <br>
+
+        <label for="gender">Gender:</label> <br>
+        <input type="radio" id="male" name="gender" value="male"> 
+        <label for="male">Male</label> <br>
+
+        <input type="radio" id="female" name="gender" value="female"> 
+        <label for="female">Female</label> <br> <br> <br>
+
+        <textarea name="multiline" rows="6">Send me a message</textarea>
+        <br> <br>
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
